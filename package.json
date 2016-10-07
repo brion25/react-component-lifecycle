@@ -1,0 +1,39 @@
+{
+  "name": "react-component-lifecycle",
+  "version": "1.0.0",
+  "description": "React component life cycle example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node ./node_modules/webpack/bin/webpack.js --progress --colors",
+    "start": "node ./webpack.dev-server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brion25/react-component-lifecycle.git"
+  },
+  "keywords": [
+    "react",
+    "webpack"
+  ],
+  "author": "JC Gomez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brion25/react-component-lifecycle/issues"
+  },
+  "homepage": "https://github.com/brion25/react-component-lifecycle#readme",
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "html-webpack-plugin": "^2.22.0",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "dependencies": {
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
+  }
+}
