@@ -26,6 +26,11 @@ let config = {
 
 if(ENV === 'development'){
   config.plugins.push(new webpack.HotModuleReplacementPlugin());
+}else if(ENV === 'production'){
+  config.plugins.push(new webpack.optimize.UglifyJsPlugin({
+            include: /\.min\.js$/,
+            minimize: true
+        }));
 }
 
 module.exports = config;
